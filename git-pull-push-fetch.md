@@ -12,7 +12,12 @@ Pushing your changes to a remote branch gives you the ability to open a pull req
 
 It is possible a remote branch exists, but has diverged from your local branch. If this is the case, you will receive an error like the example below:
 
-<!-- Find example of git error -->
+```
+On branch main
+Your branch and 'origin/main' have diverged, 
+and have 2 and 1 different commits each, respectively. 
+(use "git pull" to merge the remote branch into yours)
+```
 
 This error indicates that the commits in the remote branch are not found in your local branch. When this happens, your local branch needs to sync with the remote branch. You can do this by running `git fetch` and `git merge`, or `git pull`.
 
