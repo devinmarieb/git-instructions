@@ -22,6 +22,8 @@ The `git fetch` command fetches changes from a remote repository into your track
 
 To fetch from a specific branch, run `git fetch origin <branch-name>`, where `<branch-name>` is the name of the branch you want to fetch changes from (such as `main`).
 
+The `git diff` command will show you the fetched changes from the remote branch. Once you are ready to merge the changes, you can use the command `git merge origin <branch-name>`, where `<branch-name>` is the name of the branch you want to merge changes from (such as `main`).
+
 ## Git pull
 
 
