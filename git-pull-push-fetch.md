@@ -19,7 +19,7 @@ and have 2 and 1 different commits each, respectively.
 (use "git pull" to merge the remote branch into yours)
 ```
 
-This error indicates that the commits in the remote branch are not found in your local branch. When this happens, your local branch needs to sync with the remote branch. You can do this by running `git fetch` and `git merge`, or `git pull`.
+This error indicates that the commits in the remote branch are not found in your local branch. When this happens, your local branch needs to sync with the remote branch. You can do this by running `git fetch` and `git merge` (see [section below](#git-fetch)), or `git pull` (see [section below](#git-pull)).
 
 ## Git fetch
 
@@ -35,4 +35,4 @@ The `git pull` command runs two tasks. It fetches _and_ merges changes from a re
 
 To pull from a specific branch, run `git pull origin <branch-name>`, where `<branch-name>` is the name of the branch you want to fetch changes from, such as `main`.
 
-When pulling changes down to your local branch, the fetch and merge action of the `git pull` command is often the desired outcome. However, if you would prefer to see all the changes from the remote branch before merging to your local branch, you may prefer the `git fetch` workflow.
+When pulling changes down to your local branch, the fetch and merge action of the `git pull` command is often the desired outcome. However, if you would prefer to see all the changes from the remote branch before merging to your local branch, you may prefer the `git fetch` workflow described [above](#git-fetch).
