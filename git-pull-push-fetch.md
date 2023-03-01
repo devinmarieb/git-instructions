@@ -1,4 +1,14 @@
-What is the difference between push, pull, and fetch?
+# Git commands: What is the difference between push, fetch, and pull?
+
+This page describes the `git push`, `git fetch`, and `git pull` commands. These commands require a [remote tracking branch](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches) for your repository. If there is no remote tracking branch, you will receive an error.
+
+## Git push
+
+## Git fetch
+
+## Git pull
+
+
 - `git push` - sent changes from a local branch to a remote repo
 - `git fetch` - get changes from a remote repo into your tracking branch
 - `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
