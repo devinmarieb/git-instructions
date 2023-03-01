@@ -26,7 +26,9 @@ The `git diff` command will show you the fetched changes from the remote branch.
 
 ## Git pull
 
+The `git pull` command runs two tasks. It fetches _and_ merges changes from a remote branch into your tracking branch. Running `git pull` is the same as running `git fetch` followed immediately by `git merge`.
 
-- `git pull` - will get changes from a remote branch into your tracking branch and merge them into a local branch
+To pull from a specific branch, run `git pull origin <branch-name>`, where `<branch-name>` is the name of the branch you want to fetch changes from, such as `main`.
 
-Often `git push` and `git pull` are described as equivalent. This isn't entirely correct, since under the hood `git pull` does two things. To do that, you'll need to do `git merge origin/master` (for the "master" branch) to merge those changes into your branch - probably also called "master".`git pull` simply does a `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
+
+This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
