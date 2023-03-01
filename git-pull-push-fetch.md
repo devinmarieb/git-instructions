@@ -30,5 +30,4 @@ The `git pull` command runs two tasks. It fetches _and_ merges changes from a re
 
 To pull from a specific branch, run `git pull origin <branch-name>`, where `<branch-name>` is the name of the branch you want to fetch changes from, such as `main`.
 
-
-This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
+When pulling changes down to your local branch, the fetch and merge action of the `git pull` command is often the desired outcome. However, if you would prefer to see all the changes from the remote branch before merging to your local branch, you may prefer the `git fetch` workflow.
